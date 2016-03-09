@@ -65,8 +65,15 @@
     </distributionManagement>
 
     <properties>
+        <!-- Build -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- OSGi -->
+        <osgi.import.package>*</osgi.import.package>
+        <osgi.export.package>{local-packages}</osgi.export.package>
+        <osgi.dynamic.package></osgi.dynamic.package>
+        <osgi.activator.class></osgi.activator.class>
     </properties>
 
     <build>
@@ -81,6 +88,11 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-checkstyle-plugin</artifactId>
                     <version>2.17</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.felix</groupId>
+                    <artifactId>maven-bundle-plugin</artifactId>
+                    <version>3.0.1</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -139,6 +151,21 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                        <Implementation-Version>${project.version}</Implementation-Version>
+                        <Import-Package>${osgi.import.package}</Import-Package>
+                        <Export-Package>${osgi.export.package}</Export-Package>
+                        <DynamicImport-Package>${osgi.dynamic.package}</DynamicImport-Package>
+                        <Bundle-Activator>${osgi.activator.class}</Bundle-Activator>
+                    </instructions>
+                </configuration>
             </plugin>
         </plugins>
     </build>
