@@ -1,4 +1,4 @@
-# viskan-parent
+# parent
 Parent for all of Viskans Java projects.
 
 ### License
