@@ -114,6 +114,7 @@
                             <goal>check</goal>
                         </goals>
                         <configuration>
+                            <includeTestSourceDirectory>false</includeTestSourceDirectory>
                             <includeResources>true</includeResources>
                             <includeTestResources>false</includeTestResources>
                             <configLocation>viskan-checkstyle-main.xml</configLocation>
@@ -126,6 +127,7 @@
                             <goal>check</goal>
                         </goals>
                         <configuration>
+                            <includeTestSourceDirectory>true</includeTestSourceDirectory>
                             <includeResources>false</includeResources>
                             <includeTestResources>true</includeTestResources>
                             <configLocation>viskan-checkstyle-test.xml</configLocation>
