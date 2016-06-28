@@ -57,6 +57,7 @@
         <url>https://github.com/viskan/parent</url>
         <connection>scm:git:git://github.com/viskan/parent.git</connection>
         <developerConnection>scm:git:git@github.com:viskan/parent.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
