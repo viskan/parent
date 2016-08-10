@@ -1,5 +1,5 @@
 #Tweaked by eclipse-configuration-tweaker
-#Mon Aug 01 11:00:10 CEST 2016
+#Wed Aug 10 15:02:26 CEST 2016
 \!/=
 /configuration/com.google.gdt.eclipse.suite/id=1446643220179
 /configuration/com.google.gdt.eclipse.suite/lastUpdate=1446710827932
@@ -451,7 +451,7 @@
 /instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.gettersetter.use.is=true
 /instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.ignorelowercasenames=true
 /instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.importorder=com.viskan;activity;puncher;\#org.easymock.classextension.EasyMock;core;core.domain;core.dao;users;search;\#;java;javax;org.netbeans;org;com;
-/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.javadoc=true
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.javadoc=false
 /instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.javadoclocations.migrated=true
 /instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.ondemandthreshold=99
 /instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.overrideannotation=true
