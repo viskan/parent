@@ -1,5 +1,5 @@
 #Tweaked by eclipse-configuration-tweaker
-#Wed Aug 10 15:02:26 CEST 2016
+#Tue Oct 25 17:27:36 CEST 2016
 \!/=
 /configuration/com.google.gdt.eclipse.suite/id=1446643220179
 /configuration/com.google.gdt.eclipse.suite/lastUpdate=1446710827932
@@ -18,9 +18,11 @@
 /instance/net.sf.eclipsecs.ui/warn.before.losing.filesets=true
 /instance/org.eclipse.ant.ui/useAnnotationsPrefPage=true
 /instance/org.eclipse.ant.ui/useQuickDiffPrefPage=true
+/instance/org.eclipse.core.resources/encoding=UTF-8
 /instance/org.eclipse.core.resources/refresh.enabled=true
 /instance/org.eclipse.core.resources/refresh.lightweight.enabled=true
 /instance/org.eclipse.core.resources/version=1
+/instance/org.eclipse.core.runtime/line.separator=\r\n
 /instance/org.eclipse.debug.core/prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="type.getSimpleName()"/>\n</watchExpressions>\n
 /instance/org.eclipse.debug.ui/Console.highWaterMark=2147391647
 /instance/org.eclipse.debug.ui/Console.lowWaterMark=2147383647
