@@ -6,7 +6,7 @@ Parent for all of Viskans Java projects.
 <parent>
     <groupId>com.viskan</groupId>
     <artifactId>parent</artifactId>
-    <version>3</version>
+    <version>5</version>
 </parent>
 ```
 
