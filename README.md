@@ -1,5 +1,7 @@
-# parent
+# Parent
+
 Parent for all of Viskans Java projects.
+
 
 ## Usage
 ```xml
@@ -9,6 +11,7 @@ Parent for all of Viskans Java projects.
     <version>5</version>
 </parent>
 ```
+
 
 ## License
 Apache License 2.0 © [Viskan Distanshandel System AB](http://viskan.com/)
