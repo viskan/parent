@@ -148,12 +148,17 @@
                         <version>6.19</version>
                     </dependency>
                 </dependencies>
+                <configuration>
+                    <violationSeverity>warning</violationSeverity>
+                    <linkXRef>false</linkXRef>
+                </configuration>
                 <executions>
                     <execution>
                         <id>checkstyle-main</id>
                         <goals>
                             <goal>check</goal>
                         </goals>
+                        <phase>verify</phase>
                         <configuration>
                             <sourceDirectories>
                                 <sourceDirectory>src/main/java/</sourceDirectory>
@@ -161,7 +166,7 @@
                             <includeResources>true</includeResources>
                             <includeTestResources>false</includeTestResources>
                             <configLocation>viskan-checkstyle-main.xml</configLocation>
-                            <violationSeverity>warning</violationSeverity>
+                            <outputFile>${project.build.directory}/checkstyle-result-main.xml</outputFile>
                         </configuration>
                     </execution>
                     <execution>
@@ -169,6 +174,7 @@
                         <goals>
                             <goal>check</goal>
                         </goals>
+                        <phase>verify</phase>
                         <configuration>
                             <sourceDirectories>
                                 <sourceDirectory>src/test/java/</sourceDirectory>
@@ -176,7 +182,39 @@
                             <includeResources>false</includeResources>
                             <includeTestResources>true</includeTestResources>
                             <configLocation>viskan-checkstyle-test.xml</configLocation>
-                            <violationSeverity>warning</violationSeverity>
+                            <outputFile>${project.build.directory}/checkstyle-result-test.xml</outputFile>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>checkstyle-main-report</id>
+                        <goals>
+                            <goal>checkstyle</goal>
+                        </goals>
+                        <phase />
+                        <configuration>
+                            <sourceDirectories>
+                                <sourceDirectory>src/main/java/</sourceDirectory>
+                            </sourceDirectories>
+                            <includeResources>true</includeResources>
+                            <includeTestResources>false</includeTestResources>
+                            <configLocation>viskan-checkstyle-main.xml</configLocation>
+                            <outputFile>${project.build.directory}/checkstyle-result-main.xml</outputFile>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>checkstyle-test-report</id>
+                        <goals>
+                            <goal>checkstyle</goal>
+                        </goals>
+                        <phase />
+                        <configuration>
+                            <sourceDirectories>
+                                <sourceDirectory>src/test/java/</sourceDirectory>
+                            </sourceDirectories>
+                            <includeResources>false</includeResources>
+                            <includeTestResources>true</includeTestResources>
+                            <configLocation>viskan-checkstyle-test.xml</configLocation>
+                            <outputFile>${project.build.directory}/checkstyle-result-test.xml</outputFile>
                         </configuration>
                     </execution>
                 </executions>
