@@ -263,6 +263,7 @@
                 <configuration>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <releaseProfiles>release</releaseProfiles>
+                    <scmCommentPrefix />
                 </configuration>
             </plugin>
         </plugins>
