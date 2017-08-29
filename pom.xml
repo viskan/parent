@@ -78,6 +78,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <autoVersionSubmodules>true</autoVersionSubmodules>
+        <generate-test-jar.skip>true</generate-test-jar.skip>
 
         <!-- OSGi -->
         <osgi.import.package>*</osgi.import.package>
@@ -132,6 +133,17 @@
                         </manifest>
                     </archive>
                 </configuration>
+                <executions>
+                    <execution>
+                        <id>generate-test-jar</id>
+                        <goals>
+                            <goal>test-jar</goal>
+                        </goals>
+                        <configuration>
+                            <skip>${generate-test-jar.skip}</skip>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
