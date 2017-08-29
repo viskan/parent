@@ -23,8 +23,8 @@
     <artifactId>parent</artifactId>
     <version>6-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Viskan System AB</name>
-    <description>Parent for all of Viskans Java projects.</description>
+    <name>${project.organization.name}</name>
+    <description>Parent for all of ${project.organization.name}'s Java projects.</description>
     <url>https://github.com/viskan/parent</url>
 
     <organization>
