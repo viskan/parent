@@ -25,4 +25,4 @@ When processing projects by CI, you would want to run the checks without failing
 
 
 ## License
-Apache License 2.0 © [Viskan Distanshandel System AB](http://viskan.com/)
+Apache License 2.0 © [Viskan System AB](http://viskan.com/)
