@@ -152,12 +152,12 @@
                     <dependency>
                         <groupId>com.viskan</groupId>
                         <artifactId>checkstyle-configuration</artifactId>
-                        <version>5</version>
+                        <version>6</version>
                     </dependency>
                     <dependency>
                         <groupId>com.puppycrawl.tools</groupId>
                         <artifactId>checkstyle</artifactId>
-                        <version>6.19</version>
+                        <version>8.18</version>
                     </dependency>
                 </dependencies>
                 <configuration>
