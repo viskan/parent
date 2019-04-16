@@ -71,12 +71,14 @@
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.redundantSpecificationOfTypeArguments=warning
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.suppressOptionalErrors=enabled
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.suppressWarnings=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unavoidableGenericTypeProblems=disabled
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unnecessaryTypeCheck=warning
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unusedDeclaredThrownException=warning
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unusedDeclaredThrownExceptionExemptExceptionAndThrowable=enabled
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unusedDeclaredThrownExceptionIncludeDocCommentReference=enabled
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unusedDeclaredThrownExceptionWhenOverriding=disabled
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.unusedParameter=warning
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.explicitlyClosedAutoCloseable=warning
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.source=1.8
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.formatter.align_type_members_on_columns=false
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.formatter.alignment_for_arguments_in_allocation_expression=16

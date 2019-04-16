@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Bloch Builder pattern" enabled="true" name="bb">    /**&#13;
+	 * &#13;
+	 * @author ${user}&#13;
+	 */&#13;
+	//CSOFF&#13;
+	public static class Builder extends ABuilder&lt;${enclosing_type}&gt;&#13;
+	{&#13;
+		public Builder()&#13;
+		{&#13;
+			super(${enclosing_type}.class);&#13;
+			//Initialize Strings with "";&#13;
+		}&#13;
+&#13;
+		public Builder(int id)&#13;
+		{&#13;
+			this();&#13;
+			bobject.id = id;;&#13;
+		}&#13;
+		&#13;
+	}&#13;
+	//CSON</template></templates>

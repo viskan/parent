@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="java" deleted="false" description="Tapestry IOC bind " enabled="true" name="bind">public static void bind(ServiceBinder binder)&#13;
+{&#13;
+     binder.bind(${cursor});&#13;
+}</template></templates>

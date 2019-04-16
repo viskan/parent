@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="java" deleted="false" description="Bloch Builder method" enabled="true" name="bm">		public Builder ${var}(${argType} ${var})&#13;
+		{&#13;
+			${var2}.${var} = ${var};&#13;
+			return this;&#13;
+		}</template></templates>

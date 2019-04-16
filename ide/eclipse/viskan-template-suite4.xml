@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="java" deleted="false" description="JUnit4 test suite" enabled="true" name="suite4">@RunWith(Suite.class)&#13;
+@SuiteClasses&#13;
+({		&#13;
+	${argType}.class	&#13;
+})</template></templates>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="java" deleted="false" description="Test data interface" enabled="true" name="td">    /**&#13;
+	 * &#13;
+	 * @author ${user}&#13;
+	 */&#13;
+	public interface TD&#13;
+	{&#13;
+		&#13;
+	}</template></templates>

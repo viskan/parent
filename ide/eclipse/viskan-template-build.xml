@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="java" deleted="false" description="Tapestry IOC build service" enabled="true" name="build">public static  ${cursor}X buildX()&#13;
+{				&#13;
+	return new X();&#13;
+}</template></templates>

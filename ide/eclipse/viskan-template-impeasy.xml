@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="java" deleted="false" description="static import for EasyMock.*" enabled="true" name="impeasy">import static org.easymock.classextension.EasyMock.*;</template></templates>

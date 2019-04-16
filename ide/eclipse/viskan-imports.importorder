@@ -1,0 +1,16 @@
+#Organize Import Order
+#Wed Feb 03 13:47:45 CET 2016
+9=java
+8=search
+7=users
+6=core.dao
+5=core.domain
+13=com
+4=core
+12=org
+3=\#
+11=org.netbeans
+2=puncher
+10=javax
+1=activity
+0=com.viskan

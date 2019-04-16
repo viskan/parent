@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="register IBObjectDao in IOC" enabled="true" name="regdao">	/**&#13;
+	 * Registers {@link I${var}} in ioc container	 &#13;
+	 */&#13;
+	public static I${var} build${var}(BObjectDbPropertiesMap bObjectDbPropertiesMap)&#13;
+	{&#13;
+		return getBObjectDao(I${var}.class, bObjectDbPropertiesMap);&#13;
+	}&#13;
+	</template></templates>

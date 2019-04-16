@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="java" deleted="false" description="Funtional test method" enabled="true" name="funtest">	/**&#13;
+	 * DESCRIPTION&#13;
+	 *  Test that ... &#13;
+	 * &#13;
+	 * SCENARIO&#13;
+	 *  1. &#13;
+	 * &#13;
+	 * @author ${user}&#13;
+	 */&#13;
+	@Test&#13;
+	public void test_${var}() throws Exception&#13;
+	{&#13;
+		${cursor}&#13;
+	}</template></templates>
