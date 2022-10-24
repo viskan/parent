@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.viskan</groupId>
     <artifactId>parent</artifactId>
-    <version>10-SNAPSHOT</version>
+    <version>10</version>
     <packaging>pom</packaging>
     <name>Viskan System AB</name>
     <description>Parent for all of Viskan System AB's Java projects.</description>
@@ -57,7 +57,7 @@
         <url>https://github.com/viskan/parent</url>
         <connection>scm:git:git@github.com:viskan/parent.git</connection>
         <developerConnection>scm:git:git@github.com:viskan/parent.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v10</tag>
     </scm>
 
     <distributionManagement>
