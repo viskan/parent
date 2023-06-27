@@ -2,6 +2,8 @@
 
 Parent for all of Viskans Java projects.
 
+**NOTE:** This project has been ardhived and is no longer used.
+
 
 ## Usage
 ```xml
